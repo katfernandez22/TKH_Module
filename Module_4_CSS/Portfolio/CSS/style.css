@@ -1,0 +1,240 @@
+body {
+  background-color: white;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+div {
+  border: 5px;
+  margin: 30px;
+  color: black;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  color: #000000;
+  margin: 40px;
+  padding: 3px;
+  font-weight: bold;
+  border: 5px;
+}
+
+
+.sub-text {
+  color: #000000;
+}
+
+.filler-text {
+
+  color: #000000;
+}
+
+
+:root {
+--main-bg-color: coral;
+--main-txt-color: blue;
+--main-padding: 15px;
+}
+
+grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+
+:root{
+--first-color: #dbe4e8;
+--second-color: #f5f5f5;
+--third-color: #000000;
+--fourth-color: black;
+--font:'Inconsolata';
+--shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  flex-flow:wrap;
+  align-items: center;
+  list-style-type: none;
+  background-color: var(--forth-color);
+  position: fixed;
+  top: 0;
+  color: var(--third-color);
+  box-shadow: var(--shadow);
+}
+
+.nav {
+  display: inline-block;
+}
+
+.link {
+  color: white
+}
+
+
+p.center {
+text-align: center;
+}
+
+.topheader{
+  display: flex;
+  background: #E3FFD2;
+  padding: 10px 5px;
+}
+.topheader nav.left a{
+  padding: 10px;
+  display: inline-block;
+}
+
+.career{
+  display: flex;
+  margin: .5rem;
+  width: calc(80vw + 2rem);
+}
+
+.goals{
+  width: 45vw;
+  padding: 2rem;
+  border-radius: 6px;
+  margin-right:1rem;
+  background-color: var(--second-color);
+  box-shadow: var(--shadow);
+}
+
+.about-me{
+  width: 80vw;
+  padding: 2rem;
+  border-radius: 6px;
+  margin-left:1rem;
+  background-color: var(--second-color);
+  box-shadow: var(--shadow);
+}
+
+.skills{
+  width: 35vw;
+  padding: 2rem;
+  border-radius: 6px;
+  background-color: var(--second-color);
+  box-shadow: var(--shadow);
+}
+
+.contact-form{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  width: 80vw;
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 6px;
+  background-color: var(--second-color);
+  box-shadow: var(--shadow);
+}
+
+.contact{
+  text-align: left;
+  margin: 0 auto;
+}
+
+input{
+  min-width: 30vw;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  padding: .5 rem;
+}
+
+input[type=submit]{
+  background-color: var(--third-color);
+  color: white;
+  padding: 10px;
+  width: calc(30vw + .5rem);
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+input[type=submit]:hover{
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.projects{
+  display: flex;
+  flex-flow: row wrap;
+  width: 80vw;
+  padding: 1rem;
+  margin: .5rem;
+  border-radius: 6px;
+  background-color: var(--second-color);
+  box-shadow: var(--shadow);
+}
+.projects h2{
+  width: 100%;
+  margin: 1rem;
+}
+
+.projects p{
+  width: 100%;
+  margin: 1rem;
+  color: white
+}
+.project{
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  width: 25%;
+  box-shadow: var(--shadow);
+  color: #fff;
+  background-color: var(--third-color);
+  border-radius: 8px;
+}
+.project a{
+  color: #fff;
+}
+
+.project:hover {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.jobs{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 80vw;
+  margin: .5rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--second-color);
+  box-shadow: var(--shadow);
+}
+.job{
+  padding: 1rem;
+}
+
+.education{
+  width: 80vw;
+  margin: .5rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: var(--second-color);
+  box-shadow: var(--shadow);
+}
+
+.footer{
+  margin-top: 1rem;
+  width: 100vw;
+  background-color: var(--forth-color);
+  color: #fff;
+  text-align: center;
+}
