@@ -67,7 +67,7 @@ grid {
   flex-flow:wrap;
   align-items: center;
   list-style-type: none;
-  background-color: var(--forth-color);
+  background-color: black;
   position: fixed;
   top: 0;
   color: var(--third-color);
@@ -77,6 +77,34 @@ grid {
 .nav {
   display: inline-block;
 }
+
+.title{
+margin-left: 1em;
+text-align: center;
+font-size: 0.75em;
+color: #fff;
+}
+a{
+color: white;
+
+width: 100px;
+text-decoration: none;
+}
+}
+/*The :hover selector is used to select elements when you mouse over them.*/
+a:hover{
+Color: var(--first-color);
+}
+
+.banner li {
+display: inline;
+margin: 1rem;
+}
+
+.banner ul {
+list-style-type: none;
+}
+
 
 .link {
   color: white
@@ -237,4 +265,32 @@ input[type=submit]:hover{
   background-color: var(--forth-color);
   color: #fff;
   text-align: center;
+}
+
+.about-me{
+display: flex;
+width: 80vw;
+padding: 1rem;
+margin: .5rem;
+border-radius: 6px;
+background-color: var(--second-color);
+box-shadow: var(--shadow);
+}
+
+.profile{
+padding: 1em;
+}
+
+.about-me-text{
+padding: 1em;
+}
+
+.social-media li {
+font-size: .75em;
+display: inline;
+}
+
+.social-media ul {
+padding: .3rem;
+list-style-type: none;
 }
