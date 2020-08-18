@@ -1,0 +1,13 @@
+body {
+  margin: 10px auto;
+  min-width: 250px;
+  max-width: 50%;
+  background-color: pink;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row{
+  color: blue;
+}
